@@ -1,4 +1,6 @@
-const CONNECTOR = ""
+import path from "path";
+require('dotenv').config({ path: path.join(process.cwd(), '.env') })
+const CONNECTOR = process.env.CONNECTOR
 
 import mongoose, { mongo } from 'mongoose';
 
