@@ -1,4 +1,4 @@
-const CONNECTOR = "mongodb+srv://fullstackUser:lyngbymongo@fullstack-cluster-ikeoi.mongodb.net/graphql_video?retryWrites=true&w=majority"
+const CONNECTOR = ""
 
 import mongoose, { mongo } from 'mongoose';
 
